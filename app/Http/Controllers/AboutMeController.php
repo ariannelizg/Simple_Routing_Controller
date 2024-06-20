@@ -8,7 +8,7 @@ class AboutMeController extends Controller
 {
     public function aboutMe(){
 
-        return view('About')
+        return view('about')
                 ->with('name' , 'Arianne Liz I. Gomez')
                 ->with('email', 'ariannegomez03@gmail.com')
                 ->with('address', 'Casantiagoan, San Manuel, Pangasinan')
@@ -18,8 +18,8 @@ class AboutMeController extends Controller
                 ->with('gender' , 'Female')
                 ->with('civilStatus' , 'Single')
                 ->with('citizenship' ,	'Filipino')
-                ->with('f_Name' , 'Arnold S. Gomez')
-                ->with('m_Name' , 'Flordeliza F. Ignacio')
+                ->with('fName' , 'Arnold S. Gomez')
+                ->with('mName' , 'Flordeliza F. Ignacio')
                 ->with('height' , '5’2')
                 ->with('weight' , '65 kgs.')
                 ->with('language' , 'Filipino'); 

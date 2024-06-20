@@ -21,7 +21,7 @@
         a {
             text-decoration: none;
             font-size: 20px;
-            color: #333;
+            color: #a92268;
         }
 
 

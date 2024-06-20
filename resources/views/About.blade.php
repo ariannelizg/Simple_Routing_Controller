@@ -21,7 +21,7 @@
         a {
             text-decoration: none;
             font-size: 20px;
-            color: #333;
+            color: #a92268;
         }
 
     </style>
@@ -37,8 +37,8 @@
             <p><strong>Gender:</strong> {{ $gender }}</p>
             <p><strong>Civil Status:</strong> {{ $civilStatus }}</p>
             <p><strong>Citizenship:</strong> {{ $citizenship }}</p>
-            <p><strong>Father's Name:</strong> {{ $f_Name }}</p>
-            <p><strong>Mother's Name:</strong> {{ $m_Name }}</p>
+            <p><strong>Father's Name:</strong> {{ $fName }}</p>
+            <p><strong>Mother's Name:</strong> {{ $mName }}</p>
             <p><strong>Height:</strong> {{ $height }}</p>
             <p><strong>Weight:</strong> {{ $weight }}</p>
             <p><strong>Language:</strong> {{ $language }}</p>
