@@ -12,6 +12,10 @@
             font-family: Arial, sans-serif;
         }
 
+        h1{
+            color: #a92268;
+        }
+
         .button{
             display: flex;
             padding: 10px;
@@ -44,6 +48,7 @@
             <p><strong>Language:</strong> {{ $language }}</p>
         </div>
     </section>
+
     <section class='button'>
         <div>
             <button><a href="/about">ABOUT ME</a></button>

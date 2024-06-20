@@ -12,12 +12,17 @@
             font-family: Arial, sans-serif;
         }
 
+        h1{
+            color: #a92268;
+        }
+
         .button{
             display: flex;
             padding: 10px;
             justify-content: center;
             align-items: center;
         }
+
         a {
             text-decoration: none;
             font-size: 20px;
